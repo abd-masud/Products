@@ -161,3 +161,46 @@ header .banner {
 .banner .link a:hover {
 	color: #62c8a6;
 }
+
+.item {
+	background-color: #2e2e2e;
+}
+
+.item .item-up1 {
+	font-size: 22px;
+	color: white;
+	margin-top: 14px;
+}
+
+.item .item-up {
+	font-size: 18px;
+	color: white;
+}
+
+.item .inner-item.link a {
+	background-color: #242424;
+	display: block;
+	height: 60px;
+	margin: 15px 0;
+}
+
+.item .inner-item p {
+	line-height: 60px;
+}
+
+.item .inner-item .down-arrow {
+	height: 15px;
+	width: 15px;
+	background-color: white;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+	margin-top: -37px;
+	margin-left: 210px;
+}
+
+.item .inner-item .down-arrow i {
+	color: black
+}
