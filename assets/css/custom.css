@@ -204,3 +204,260 @@ header .banner {
 .item .inner-item .down-arrow i {
 	color: black
 }
+
+.sells {
+	background-color: #ebe7df;
+}
+
+.sell-top {
+	padding: 30px 0;
+}
+
+.sell-top-left {
+	font-size: 25px;
+}
+
+.sell-top-left span {
+	font-size: 12px;
+	color: #bcb5a7;
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+.sell-top-right {
+	font-size: 14px;
+	color: #bcb5a7;
+	margin-top: 8px;
+	margin-right: 5px;
+}
+
+.sell-right-btn i {
+	font-size: 20px;
+	padding: 7px 9px;
+}
+
+.sell-right-btn {
+	color: #bcb5a7;
+	border: solid 1px #bcb5a7;
+	background-color: transparent;
+	margin-left: 9px;
+	transition: all linear .2s;
+}
+
+.sell-right-btn1 {
+	height: 40px;
+	padding: 0 40px;
+	font-size: 14px;
+	color: #bcb5a7;
+	background-color: transparent;
+	border: solid 1px #bcb5a7;
+	display: flex;
+	line-height: 35px;
+	position: relative;
+	margin-left: 20px;
+	transition: all linear .2s;
+}
+
+.sell-right-btn1 span {
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	background-color: #bcb5a7;
+	color: #ebe7df;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	margin-top: 10px;
+	right: 12px;
+}
+
+.sell-right-btn:hover,
+.sell-right-btn1:hover {
+	border: solid 1px #898170;
+}
+
+.sell-part {
+	padding-bottom: 20px;
+}
+
+.sell1-top {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.sell1-top p {
+	font-size: 25px;
+}
+
+.sell1-top button {
+	background-color: transparent;
+	border: solid 1px #bcb5a7;
+	color: #bcb5a7;
+	cursor: pointer;
+	padding: 8px 21px;
+	transition: all linear .1s;
+}
+
+.sell1-top button:hover {
+	border: solid 1px #bcb5a7;
+	color: #ebe7df;
+	background-color: #bcb5a7;
+}
+
+.sell-item {
+	position: relative;
+}
+
+.sell-item img {
+	border-bottom: solid 1px #cccccc;
+}
+
+.sell-items {
+	height: 48px;
+	position: absolute;
+	z-index: 3;
+	background-color: white;
+	width: 100%;
+	margin-top: -48px;
+	opacity: 0;
+	transition: all linear .1s;
+	line-height: 48px;
+	padding-right: 45px;
+}
+
+.sell-items a {
+	margin-left: 30px;
+}
+
+.sell-item:hover .sell-items {
+	opacity: 1;
+}
+
+.sell-items a {
+	color: #6e6e6e;
+	transition: all linear .2s;
+}
+
+.sell-items a:hover {
+	color: #62c9a6;
+}
+
+.sell-item-tag p {
+	font-size: 18px;
+	margin-left: 100px;
+	padding-top: 8px;
+}
+
+.sell-price-tag {
+	height: 68px;
+	width: 68px;
+	background-color: #57c5a0;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 13px;
+	position: absolute;
+	margin-left: 12px;
+	z-index: 5;
+	margin-top: -68px;
+}
+
+.sell-level1 {
+	height: 68px;
+	width: 68px;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	right: 15px;
+}
+
+.sell-level1 h6 {
+	font-size: 13px;
+}
+
+.sell-level2 {
+	height: 68px;
+	width: 68px;
+	background-color: #f27e4b;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	right: 15px;
+}
+
+.sell-level2 h6 {
+	font-size: 13px;
+}
+
+.sell-item-tag {
+	height: 48px;
+	background-color: white;
+	width: 100%;
+}
+
+.sells .items {
+	background-color: #dfdbd4;
+	padding: 30px 15px;
+	letter-spacing: .5px
+}
+
+.sells .items h6 {
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.sells .items p {
+	font-size: 12px;
+}
+
+.sell-text {
+	padding-top: 5px;
+	padding-bottom: 23px;
+	line-height: 17px;
+}
+
+.john {
+	margin-top: 5px;
+}
+
+.item-top {
+	padding-bottom: 5px;
+}
+
+.items {
+	height: 185px;
+}
+
+.items .news-date {
+	height: 36px;
+	width: 36px;
+	background-color: #57c5a0;
+}
+
+.items .news-date h6 {
+	font-size: 10px;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.items .items-h6 {
+	margin-top: 2px;
+}
+
+.items .items-p {
+	margin-top: -7px;
+}
+
+.items .date {
+	margin-bottom: 14px;
+}
