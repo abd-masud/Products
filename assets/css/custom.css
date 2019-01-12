@@ -461,3 +461,83 @@ header .banner {
 .items .date {
 	margin-bottom: 14px;
 }
+
+.text {
+	background-color: #242424;
+}
+
+.text .textpart {
+	padding: 0 30px;
+}
+
+.text .text-header {
+	color: #7d7d7d;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+.text .text-para {
+	color: #a4a4a4;
+	font-size: 12px;
+	font-style: italic;
+	text-align: justify;
+	line-height: 20px;
+}
+
+.text .text-para span {
+	color: #57c5a0;
+}
+
+.text .text-date {
+	color: #c4c5bf;
+	font-size: 12px;
+	font-style: italic;
+	padding: 10px 0 15px;
+}
+
+.text-area {
+	padding: 45px 40px 20px;
+}
+
+.form-control {
+	background-color: #2e2e2e;
+	border: none;
+	font-size: 12px;
+	font-style: italic;
+	color: #7d7d7d;
+}
+
+.form-control:focus {
+	background-color: #2e2e2e;
+}
+
+.input-group-text a {
+	color: #2e2e2e;
+}
+
+.input-group-text {
+	background-color: #7d7d7d;
+	border: none;
+}
+
+.social-link {
+	margin-right: 20px;
+	padding-bottom: 40px;
+}
+
+.social-link a {
+	height: 36px;
+	width: 36px;
+	display: inline-block;
+	background-color: #2e2e2e;
+	text-align: center;
+	padding-top: 6px;
+	color: #7d7d7d;
+	margin-left: 5px;
+	transition: all linear .1s;
+}
+
+.social-link a:hover {
+	color: #2e2e2e;
+	background-color: #7d7d7d;
+}
